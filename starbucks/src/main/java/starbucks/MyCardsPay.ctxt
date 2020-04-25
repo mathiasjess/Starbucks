@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=MyCardsPay
+comment0.text=My\ Card\ Pay\ Screen
+comment1.params=
+comment1.target=MyCardsPay()
+comment2.params=x\ y
+comment2.target=void\ touch(int,\ int)
+comment2.text=Add\ card\ number\ and\ card\ code
+comment3.params=
+comment3.target=java.lang.String\ display()
+comment4.params=IDdigits\ CardId
+comment4.target=void\ CardIDUpdate(int,\ java.lang.String)
+comment5.params=Codedigits\ CardCode
+comment5.target=void\ CardCodeUpdate(int,\ java.lang.String)
+comment6.params=obj
+comment6.target=void\ attach(IUpdateMyCardsObserver)
+comment7.params=obj
+comment7.target=void\ removeObserver(IUpdateMyCardsObserver)
+comment8.params=
+comment8.target=void\ notifyObservers()
+numComments=9

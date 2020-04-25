@@ -1,0 +1,37 @@
+#BlueJ class context
+comment0.target=AddCardCode
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ AddCardCode\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=AddCardCode()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ AddCardCode\r\n
+comment10.params=obj
+comment10.target=void\ attach(ICardCodeValidityObserver)
+comment11.params=obj
+comment11.target=void\ removeObserver(ICardCodeValidityObserver)
+comment11.text=\r\n\ Remove\ Key\ Pad\ Observer\r\n\ @param\ obj\ Observer\r\n
+comment12.params=
+comment12.target=void\ notifyObservers()
+comment12.text=\r\n\ Notify\ all\ Observers\ of\ Update\ Event\r\n
+comment13.params=
+comment13.target=void\ previousScreen()
+comment14.params=
+comment14.target=void\ nextScreen()
+comment2.params=
+comment2.target=java.lang.String\ AddCardScreendisplay()
+comment3.params=c
+comment3.target=void\ addcardscreenSubComponent(IAddCardDisplayComponent)
+comment4.params=x\ y
+comment4.target=void\ cardtouch(int,\ int)
+comment5.params=next
+comment5.target=void\ setNextcarddigit(ITouchAddCardEventHandler)
+comment6.params=
+comment6.target=java.lang.String\ lastCardCode()
+comment7.params=x\ y
+comment7.target=java.lang.String\ getCardCode(int,\ int)
+comment7.text=\r\n\ Get\ Key\ Number\ from\ (X,Y)\ Touch\ Coord's\r\n\ @param\ \ x\ [description]\r\n\ @param\ \ y\ [description]\r\n\ @return\ \ \ [description]\r\n
+comment8.params=
+comment8.target=void\ backspacecardcode()
+comment8.text=\r\n\ \ \ \ kx\ \=\ 1,\ ky\ \=\ 1\ \ \=\=>\ 1\r\n\ \ \ \ kx\ \=\ 1,\ ky\ \=\ 2\ \ \=\=>\ 4\r\n\ \ \ \ kx\ \=\ 1,\ ky\ \=\ 3\ \ \=\=>\ 7\r\n\r\n\ \ \ \ kx\ \=\ 2,\ ky\ \=\ 1\ \ \=\=>\ 2\r\n\ \ \ \ kx\ \=\ 2,\ ky\ \=\ 2\ \ \=\=>\ 5\r\n\ \ \ \ kx\ \=\ 2,\ ky\ \=\ 3\ \ \=\=>\ 8\r\n\r\n\ \ \ \ kx\ \=\ 3,\ ky\ \=\ 1\ \ \=\=>\ 3\r\n\ \ \ \ kx\ \=\ 3,\ ky\ \=\ 2\ \ \=\=>\ 6\r\n\ \ \ \ kx\ \=\ 3,\ ky\ \=\ 3\ \ \=\=>\ 9\r\n\r\n\ \ \ \ n\ \=\ kx\ +\ 3\ *\ (ky-1)\r\n\r\n
+comment9.params=
+comment9.target=void\ updatecardcode()
+numComments=15

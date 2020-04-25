@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=MyCards
+comment0.text=My\ Cards\ Screen
+comment1.params=
+comment1.target=MyCards()
+comment2.params=x\ y
+comment2.target=void\ touch(int,\ int)
+comment3.params=CardID\ Balance
+comment3.target=void\ MyCardsUpdate(java.lang.String,\ double)
+comment4.params=
+comment4.target=java.lang.String\ display()
+numComments=5
